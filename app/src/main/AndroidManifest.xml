@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
-	<uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -82,7 +82,8 @@
         </activity>
         <activity
             android:name="org.fashiontec.bodyapps.main.SettingsActivity"
-            android:label="@string/title_activity_settings" >
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name="org.fashiontec.bodyapps.main.CreateActivity"

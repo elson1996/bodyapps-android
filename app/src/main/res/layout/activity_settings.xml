@@ -88,7 +88,7 @@
                     android:textColor="@drawable/btn_txt" />
 
                 <Button
-                    android:id="@+id/settings_btn_reovke"
+                    android:id="@+id/settings_btn_revoke"
                     style="@style/btnStyleios"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"

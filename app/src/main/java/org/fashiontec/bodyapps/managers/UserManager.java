@@ -19,6 +19,7 @@ import org.fashiontec.bodyapps.models.User;
  * Manages the DB requests to user table
  */
 public class UserManager {
+    public static final String NO_ID = "NoId";
     private SQLiteDatabase database;
     private DatabaseHandler dbHandler;
     private static UserManager userManager;
@@ -55,7 +56,10 @@ public class UserManager {
     }
 
     /**
-     * Check if the user exists.
+     * Check if the user exists. Actually tries to find the user by email address in database
+     * and returns the user id if successful. If user does not exist, returns null
+     *
+     * TODO: find a better name
      *
      * @param user
      * @return

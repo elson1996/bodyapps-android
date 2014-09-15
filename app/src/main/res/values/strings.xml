@@ -99,6 +99,12 @@
     <string name="sync_needed_msg">You have to sync before getting HDF!</string>
     <string name="close">Close</string>
     <string name="dob">Date of birth</string>
+    <string name="alert_dialog_dismiss">Dismiss</string>
+    <string name="progress_dialog_message">Loading…</string>
+    <string name="settings_user_connected">User connected</string>
+    <string name="settings_backend_user_not_connected">Not connected to backend</string>
+    <string name="settings_backend_user_connected">Connected to backend</string>
+    <string name="settings_backend_connection_failed">Failed connecting to web service</string>
 
 
 </resources>

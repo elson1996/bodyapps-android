@@ -12,7 +12,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewPerson"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner_color"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textViewNeck"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner_color"
@@ -48,7 +48,7 @@
             android:layout_marginTop="5dp" />
        
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner_color"
@@ -72,7 +72,7 @@
             android:layout_marginTop="5dp" />
         
          <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textViewChest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner_color"
@@ -86,7 +86,7 @@
             android:layout_marginTop="5dp" />
         
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textViewArm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner_color"
@@ -115,7 +115,7 @@
             android:layout_marginTop="5dp" />
         
          <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textViewHipAndWaist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner_color"
