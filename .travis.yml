@@ -32,9 +32,6 @@ android:
     - extra-android-m2repository
     - sys-img-armeabi-v7a-google_apis-$EMULATOR_API_LEVEL
 
-  licenses:
-    - android-sdk-license-5be876d5
-
 before_script:
   # Create and start emulator
   - echo no | android create avd --force -n test -t "android-"$EMULATOR_API_LEVEL --abi $ANDROID_ABI
