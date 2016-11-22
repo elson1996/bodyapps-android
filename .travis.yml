@@ -9,6 +9,7 @@ before_install:
 android:
   components:
     - build-tools-23.0.2
+    - useLibrary 'org.apache.http.legacy'
   licenses:
     - android-sdk-license-5be876d5
 
