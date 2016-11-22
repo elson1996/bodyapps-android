@@ -13,6 +13,10 @@ android:
     - useLibrary 'org.apache.http.legacy'
     - android-23
     - sys-img-armeabi-v7a-android-23
+    - platform-tools
+    - tools
+    - extra-google-m2repository
+    - extra-android-m2repository
 
 
   licenses:
@@ -20,7 +24,7 @@ android:
 
 before_script:
   # Create and start emulator
-  - echo no | android create avd --force -n test -t $ANDROID_TARGET -abi $ANDROID_ABI
+  - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
   - emulator -avd test -no-skin -no-audio -no-window &
   - adb wait-for-device
   - adb shell input keyevent 82 &
@@ -30,7 +34,7 @@ script: ./gradlew connectedAndroidTest
 notifications:
   webhooks:
     urls:
-    #https://webhooks.gitter.im/e/6967b4aa34219a8450e6
+    - https://webhooks.gitter.im/e/6967b4aa34219a8450e6
     on_success: change  # options: [always|never|change] default: always
     on_failure: always  # options: [always|never|change] default: always
     on_start: never     # options: [always|never|change] default: always
