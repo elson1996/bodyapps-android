@@ -11,6 +11,8 @@ android:
   components:
     - build-tools-23.0.2
     - useLibrary 'org.apache.http.legacy'
+    - android-23
+    - sys-img-armeabi-v7a-android-23
 
 
   licenses:
